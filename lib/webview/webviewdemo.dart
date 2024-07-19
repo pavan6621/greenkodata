@@ -30,20 +30,17 @@ class _WebViewDemoState extends State<WebViewDemo> {
           ?  Scaffold(
       appBar: AppBar(
               title: Text('Toolbar'),
-              leading: IconButton(
-                icon: Icon(Icons.menu),
-                onPressed: () {},
-              ),
-              actions: [
-                IconButton(
-                  icon: Icon(Icons.search),
-                  onPressed: () {},
-                ),
-                IconButton(
-                  icon: Icon(Icons.more_vert),
-                  onPressed: () {},
-                ),
-              ],
+              
+              // actions: [
+              //   IconButton(
+              //     icon: Icon(Icons.search),
+              //     onPressed: () {},
+              //   ),
+              //   IconButton(
+              //     icon: Icon(Icons.more_vert),
+              //     onPressed: () {},
+              //   ),
+              // ],
             ) ,
       body: Center(
         child: Container(
